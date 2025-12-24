@@ -1,8 +1,23 @@
-# Maximizing Revenue for Cab Drivers
-
+# Data Analysis for Maximizing Revenue for Cab Drivers using Python
 ## Project Overview
-This project analyzes cab trip data to understand how drivers can increase their revenue.  
-The analysis focuses on distance, fare, tips, peak hours, and factors that affect total earnings.
+In the rapidly growing taxi service industry, boosting driver income is key to maintaining long-term growth and driver satisfaction. 
+This project analyzes whether the payment method used by passengers (Cash vs Credit Card) has any impact on the total fare amount earned by drivers. 
+The analysis uses Python-based exploratory data analysis and hypothesis testing to derive actionable insights.
+
+## Problem Statement
+Taxi drivers often experience variations in earnings depending on trip characteristics and passenger behavior. 
+One important but less explored factor is the payment method used by customers. 
+This project aims to determine:
+1) Does the total fare amount differ based on payment method?
+2) Do credit card payments result in higher fares compared to cash payments?
+
+## Objective
+The primary objective of this project is to evaluate whether the total fare of a taxi ride depends on the payment method (Cash vs Credit Card). 
+Using Python, basic statistical analysis, and hypothesis testing, the project seeks to identify any significant difference in average fare amounts between the two payment types.
+
+## Research Questions
+Is there a statistically significant relationship between payment method and total fare amount?
+Can encouraging a particular payment method help drivers increase their revenue without affecting customer experience?
 
 ---
 
