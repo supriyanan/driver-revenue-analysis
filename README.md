@@ -1,50 +1,45 @@
 # Data Analysis for Maximizing Revenue for Cab Drivers using Python
 ## Project Overview
-In the rapidly growing taxi service industry, boosting driver income is key to maintaining long-term growth and driver satisfaction. 
-This project analyzes whether the payment method used by passengers (Cash vs Credit Card) has any impact on the total fare amount earned by drivers. 
-The analysis uses Python-based exploratory data analysis and hypothesis testing to derive actionable insights.
+In the rapidly growing taxi service industry, increasing driver income is crucial for long-term sustainability and satisfaction. This project analyzes whether the passenger payment type has an impact on the total fare amount. By examining the relationship between payment methods and fare values, the study aims to generate insights that can help taxi drivers maximize their revenue.
 
-## Problem Statement
-Taxi drivers often experience variations in earnings depending on trip characteristics and passenger behavior. 
-One important but less explored factor is the payment method used by customers. 
-This project aims to determine:
-1) Does the total fare amount differ based on payment method?
-2) Do credit card payments result in higher fares compared to cash payments?
+## 🛠 Tools & Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Statistical Hypothesis Testing
 
 ## Objective
-The primary objective of this project is to evaluate whether the total fare of a taxi ride depends on the payment method (Cash vs Credit Card). 
-Using Python, basic statistical analysis, and hypothesis testing, the project seeks to identify any significant difference in average fare amounts between the two payment types.
+This project aims to examine whether the total fare of a taxi ride depends on the payment method (cash or credit card). Using Python, basic statistical analysis, and hypothesis testing, the study evaluates whether there is a significant difference in fare amounts between the two payment types. The goal is to provide insights that can help taxi drivers understand if certain payment methods lead to higher revenue.
 
 ## Research Questions
-Is there a statistically significant relationship between payment method and total fare amount?
-Can encouraging a particular payment method help drivers increase their revenue without affecting customer experience?
+- Is there a relationship between the total fare amount and the payment method used?
+- Can encouraging specific payment methods help drivers increase earnings without negatively impacting customer experience?
 
 ---
 
-## Dataset Details
-Main columns used:
-- pickup_datetime  
-- dropoff_datetime  
-- trip_distance  
-- fare_amount  
-- tip_amount  
-- tolls_amount  
-- total_amount  
+## 📊 Dataset
+The dataset contains taxi trip records used to analyze fare differences based on payment method.
 
-New features created:
-- trip_duration  
-- pickup_hour  
+**Key columns used in analysis:**
+- payment_type
+- fare_amount
+- trip_distance
+- passenger_count
+- Airport_fee
+   
+**New features created:**
+- trip_duration    
 
 ---
-
-## Tools Used
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Plotly  
-- Jupyter Notebook  
+## 🔍 Analysis Workflow
+- Data loading and initial inspection
+- Data cleaning and preprocessing
+- Feature engineering (trip duration calculation)
+- Exploratory data analysis (EDA)
+- Hypothesis testing to compare fare amounts by payment method
 
 ---
 
