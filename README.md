@@ -11,8 +11,8 @@ In the rapidly growing taxi service industry, increasing driver income is crucia
 - Jupyter Notebook
 - Statistical Hypothesis Testing
 
-## Objective
-This project aims to examine whether the total fare of a taxi ride depends on the payment method (cash or credit card). Using Python, basic statistical analysis, and hypothesis testing, the study evaluates whether there is a significant difference in fare amounts between the two payment types. The goal is to provide insights that can help taxi drivers understand if certain payment methods lead to higher revenue.
+## 🎯 Objective
+This project aims to examine whether the total fare of a taxi ride depends on the payment method (cash or credit card). Using Python, statistical analysis, and hypothesis testing, the study evaluates whether there is a significant difference in fare amounts between the two payment types. The goal is to provide insights that can help taxi drivers understand if certain payment methods lead to higher revenue.
 
 ## Research Questions
 - Is there a relationship between the total fare amount and the payment method used?
@@ -43,44 +43,10 @@ The dataset contains taxi trip records used to analyze fare differences based on
 
 ---
 
-## Key Insights
-- Longer trips give higher revenue  
-- Evening hours (6 PM – 11 PM) have highest demand  
-- Tips are higher in longer and late-night trips  
-- Some pickup zones give better earning opportunities  
+## 📈 Key Insights
+- Hypothesis testing results show a statistically significant difference in average fare amounts between credit card and cash payments (p < 0.05).
+- Customers paying by credit card tend to have higher average fares compared to those paying by cash.
+- Encouraging credit card payments may help increase driver earnings, potentially due to longer or higher-value trips, without negatively impacting customer experience.
 
 ---
 
-## How to Run
-
-1. Install libraries:
-```
-pip install pandas numpy matplotlib seaborn plotly jupyter
-```
-
-2. Download the dataset and place it in the project folder.
-Example:
-```
-data/cab_trip_data.csv
-```
-
-3. Open Jupyter Notebook:
-```
-jupyter notebook
-```
-
-4. Run the analysis notebook:
-```
-Cab_Driver_Revenue_Analysis.ipynb
-```
-
-## Project Structure
-```
-project-folder/
-│
-├── data/
-│   └── cab_trip_data.csv
-│
-├── Cab_Driver_Revenue_Analysis.ipynb
-└── README.md
-```
